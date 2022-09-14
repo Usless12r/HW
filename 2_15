@@ -1,0 +1,14 @@
+Console.WriteLine("Программа, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.");
+            Console.WriteLine("Введите число от 1 до 7");
+            int N = Convert.ToInt32(Console.ReadLine());
+            if (N > 0 && N < 8)
+            {
+                if (N > 0 && N < 6)
+                {
+                    Console.WriteLine("Рабочий день");
+                }
+                else
+                    Console.WriteLine("Выходной день");
+            }
+            else
+                Console.WriteLine("Нет такого дня недели");
